@@ -12,7 +12,7 @@
     sm,
     md,
     lg,
-  }  = $$props
+  }  = $$restProps
 </script>
 
 {JSON.stringify({
