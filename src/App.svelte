@@ -3,4 +3,4 @@
 </script>
 
 
-<Test someProps={{"username":"asd"}}/>
+<Test />

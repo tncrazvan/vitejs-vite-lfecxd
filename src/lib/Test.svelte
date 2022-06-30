@@ -1,16 +1,14 @@
-<script lang="ts">
-  let someProps: {
-    username?: string,
-    age?: number,
-    details?: {
-      firstname?: string,
-      lastname?: string
+<script>
+  let input = {
+    username: '',
+    age: -1,
+    details: {
+      firstname: '',
+      lastname: ''
     }
-  } = {
-    username: 'test'
   }
 
-  export { someProps }
+  export default {...input}
 </script>
 
-{JSON.stringify(someProps)}
+{JSON.stringify(input)}
