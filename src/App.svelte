@@ -1,6 +1,6 @@
 <script lang="ts">
   import Test from './lib/Test.svelte'
-  import test from './lib/test'
+  import test from './lib/test' //it works with ".ts" files
 </script>
 
 
