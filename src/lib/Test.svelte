@@ -19,4 +19,4 @@
     sm,
     md,
     lg,
-  })} &lt;== comes from "$$props"
+})} &lt;== comes from "$$props"
