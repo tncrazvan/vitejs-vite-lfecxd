@@ -5,7 +5,18 @@
     lg: 1200,
   }
 
-  export default {...input}
+  //remove the comment bellow and see the error
+  //export default input
+
+  const {
+    sm,
+    md,
+    lg,
+  }  = $$props
 </script>
 
-{JSON.stringify(input)}
+{JSON.stringify({
+    sm,
+    md,
+    lg,
+  })} &lt;== comes from "$$props"

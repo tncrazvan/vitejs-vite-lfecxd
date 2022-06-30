@@ -4,6 +4,6 @@
 </script>
 
 
-<Test />
+<Test sm=100 md=200 lg=400/>
 <br/>
-{JSON.stringify(test)}
+{JSON.stringify(test)} &lt;== comes from "test.ts"
